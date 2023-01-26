@@ -163,7 +163,7 @@ app.get("/data_buku", (req, res) => {
         }else{
             response ={
                 count: result.length,
-                data_siswa: result
+                data_buku: result
             }
         }
         res.json(response)
@@ -187,7 +187,7 @@ app.get("/data_buku/:id_buku", (req, res)=> {
         }else{
             response = {
                 count: result.length,
-                data_siswa: result
+                data_buku: result
             }
         }
         res.json(response)
